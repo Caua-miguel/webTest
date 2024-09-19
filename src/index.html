@@ -10,24 +10,26 @@
     
     <div id="root" class="relative h-max m-auto ">
 
-        <nav id="top-bar" class=" m-2 bg-blue-500 text-white ">
+        <nav id="top-bar" class="p-5 m-2 bg-blue-500 text-white ">
             Cadastro de clientes
         </nav>
 
-        <p class=" absolute  text-white">* Campo Obrigátorio</p>
-       
-        <form action="" class="m-2  bg-red-500 ">
-
-            qualquer coisa
-
-        </form>
-
-        <div class="p-5 m-2 ">
-
-            <div class="m-2 bg-blue-400">teste teste teste</div>
-            <div class="m-2 bg-blue-800">teste teste teste</div>
-
+        <div class="flex flex-row-reverse p-2">
+                <p class=" text-gray-400">Campo Obrigatório</p>
+                <p class=" text-red-600">*</p>   
         </div>
+        
+        <form action="" class="m-2 ">
+
+            <div class="flex">
+                <div class="flex flex-row pr-4">
+                    <label class=" text-gray-500 font-bold" for="nome-completo">Nome</label>
+                    <p class=" text-red-600">*</p>  
+                </div>
+                <input class="w-3/4 bg-white rounded-sm" type="text">
+            </div>
+           
+        </form>
     </div>
 
         
