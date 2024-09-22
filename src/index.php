@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/dist/output.css">
 </head>
 <body class="m-0 p-0 font-sans bg-gray-800">
-    
+
     <div id="root" class="relative h-max m-auto ">
 
         <nav id="top-bar" class="p-5 m-2 bg-blue-500 text-white ">
@@ -29,7 +29,7 @@
                 <input id="nome-completo" class="w-3/4 bg-white rounded-sm" type="text">
             </div>
 
-            <div class="flex p-2">\
+            <div class="flex p-2">
 
                 <div class="flex flex-row pr-4">
                     <label class="text-right w-28 text-gray-500 font-bold" for="cpf">CPF</label>
